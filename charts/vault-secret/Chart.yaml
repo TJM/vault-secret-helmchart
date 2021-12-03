@@ -1,0 +1,11 @@
+apiVersion: v2
+name: vault-secret
+description: A Helm chart for deploying ricoberger VaultSecret resources
+type: application
+version: 0.1.0
+home: https://github.com/TJM/vault-secret-helmchart
+appVersion: "1.17.0"
+maintainers:
+  - name: TJM  # Tommy McNeely
+    email: tjm@users.github.io
+    url: https://github.com/TJM
