@@ -40,5 +40,8 @@ jobs:
         uses: helm/kind-action@v1.2.0
         if: steps.list-changed.outputs.changed == 'true'
 
+      - name: Install CRD for VaultSecret
+        run: kubectl apply -f https://raw.githubusercontent.com/ricoberger/vault-secrets-operator/master/charts/vault-secrets-operator/crds/crd-vaultsecret.yaml
+
       - name: Run chart-testing (install)
         run: ct install
