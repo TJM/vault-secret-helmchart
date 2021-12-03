@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  vault-secret:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2021-12-03T21:55:09.02984794Z"
+    description: A Helm chart for deploying ricoberger VaultSecret resources
+    digest: 9903dd624e5fb23a15093998fe0f665b949f712ee65cddf8a53989a817d7a52e
+    home: https://github.com/TJM/vault-secret-helmchart
+    maintainers:
+    - email: tjm@users.github.io
+      name: TJM
+      url: https://github.com/TJM
+    name: vault-secret
+    type: application
+    urls:
+    - https://github.com/TJM/vault-secret-helmchart/releases/download/vault-secret-0.1.0/vault-secret-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-12-03T21:55:09.02985344Z"
