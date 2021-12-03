@@ -1,0 +1,8 @@
+#nameOverride: vault-secret
+vaultSecret:
+  path: /secrets/path
+  keys:
+    - private_key_data
+isBinary: true
+secretEngine: gcp
+type: Opaque
