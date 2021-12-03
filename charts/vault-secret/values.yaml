@@ -1,4 +1,4 @@
-#nameOverride: vault-secret
+# nameOverride: vault-secret
 vaultSecret:
   path: /secrets/path
   keys:
