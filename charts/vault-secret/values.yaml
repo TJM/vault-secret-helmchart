@@ -3,6 +3,11 @@ vaultSecret:
   path: /secrets/path
   keys:
     - private_key_data
-isBinary: true
-secretEngine: gcp
+# isBinary: true
+# secretEngine: gcp
 type: Opaque
+## https://github.com/ricoberger/vault-secrets-operator#using-templated-secrets
+# templates: ~
+templates:
+  key.json: "{% .Secrets.private_key_data %}"
+  other: thing
